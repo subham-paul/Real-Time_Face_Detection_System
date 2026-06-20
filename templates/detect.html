@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="detect-section">
+    <div class="container">
+        <h1>Face Detection</h1>
+        
+        <div class="detection-area">
+            <div class="video-container">
+                <video id="video" autoplay playsinline></video>
+                <canvas id="canvas" style="display: none;"></canvas>
+            </div>
+            
+            <div class="controls">
+                <button id="startBtn" class="btn btn-primary">Start Camera</button>
+                <button id="stopBtn" class="btn btn-secondary" disabled>Stop Camera</button>
+            </div>
+            
+            <div class="results">
+                <h3>Face Count: <span id="faceCount">0</span></h3>
+                <div id="processedImage"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/detect.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,324 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Hero About Section -->
+<section class="about-hero">
+    <div class="container">
+        <div class="about-hero-content">
+            <h1>About Face Detection Technology</h1>
+            <p class="hero-subtitle">Revolutionizing computer vision with cutting-edge artificial intelligence and machine learning algorithms</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">99.2%</div>
+                    <div class="stat-label">Detection Accuracy</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">&lt;100ms</div>
+                    <div class="stat-label">Processing Time</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Faces Simultaneously</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Mission Section -->
+<section class="mission-section">
+    <div class="container">
+        <div class="mission-grid">
+            <div class="mission-content">
+                <h2>Our Mission</h2>
+                <p>We're dedicated to making advanced computer vision technology accessible to everyone. Our face detection platform combines state-of-the-art algorithms with an intuitive interface, enabling developers, researchers, and businesses to implement reliable face detection solutions without complex infrastructure.</p>
+                <p>By leveraging the power of modern web technologies and machine learning, we've created a system that delivers enterprise-grade performance while maintaining simplicity and ease of use.</p>
+                <div class="mission-values">
+                    <div class="value-item">
+                        <h4>Innovation</h4>
+                        <p>Continuously improving our algorithms and technology stack</p>
+                    </div>
+                    <div class="value-item">
+                        <h4>Accessibility</h4>
+                        <p>Making advanced technology available to all skill levels</p>
+                    </div>
+                    <div class="value-item">
+                        <h4>Privacy</h4>
+                        <p>Ensuring user data protection through local processing</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mission-visual">
+                <div class="tech-animation">
+                    <div class="animation-circle"></div>
+                    <div class="animation-face"></div>
+                    <div class="animation-data"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Technology Deep Dive -->
+<section class="tech-deep-dive">
+    <div class="container">
+        <h2>Advanced Technology Stack</h2>
+        <p class="section-subtitle">Built with cutting-edge technologies for optimal performance</p>
+        
+        <div class="tech-stack-detailed">
+            <div class="tech-category">
+                <h3>Backend Infrastructure</h3>
+                <div class="tech-items">
+                    <div class="tech-card">
+                        <div class="tech-icon">🐍</div>
+                        <h4>Flask Framework</h4>
+                        <p>Lightweight and efficient Python web framework providing robust API endpoints and seamless integration with computer vision libraries.</p>
+                    </div>
+                    <div class="tech-card">
+                        <div class="tech-icon">👁️</div>
+                        <h4>OpenCV</h4>
+                        <p>Industry-standard computer vision library with optimized Haar Cascade classifiers for real-time face detection and image processing.</p>
+                    </div>
+                    <div class="tech-card">
+                        <div class="tech-icon">🔢</div>
+                        <h4>NumPy</h4>
+                        <p>High-performance numerical computing library enabling efficient matrix operations and image data manipulation.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tech-category">
+                <h3>Frontend Experience</h3>
+                <div class="tech-items">
+                    <div class="tech-card">
+                        <div class="tech-icon">🌐</div>
+                        <h4>HTML5 & CSS3</h4>
+                        <p>Modern web standards with responsive design, CSS Grid, Flexbox, and advanced animations for optimal user experience.</p>
+                    </div>
+                    <div class="tech-card">
+                        <div class="tech-icon">⚡</div>
+                        <h4>JavaScript ES6+</h4>
+                        <p>Advanced JavaScript with async/await, WebRTC for camera access, and real-time communication with backend services.</p>
+                    </div>
+                    <div class="tech-card">
+                        <div class="tech-icon">📱</div>
+                        <h4>Responsive Design</h4>
+                        <p>Mobile-first approach ensuring seamless experience across all devices and screen sizes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- How It Works Detailed -->
+<section class="how-it-works-detailed">
+    <div class="container">
+        <h2>How Our Technology Works</h2>
+        <div class="process-flow">
+            <div class="process-step">
+                <div class="step-number">01</div>
+                <div class="step-content">
+                    <h3>Video Capture</h3>
+                    <p>Utilizes WebRTC to access your device's camera and capture real-time video streams with optimal resolution and frame rate.</p>
+                </div>
+                <div class="step-visual">
+                    <div class="visual-camera"></div>
+                </div>
+            </div>
+            
+            <div class="process-step">
+                <div class="step-number">02</div>
+                <div class="step-content">
+                    <h3>Frame Processing</h3>
+                    <p>Converts video frames to grayscale and applies preprocessing techniques to enhance detection accuracy and performance.</p>
+                </div>
+                <div class="step-visual">
+                    <div class="visual-frame"></div>
+                </div>
+            </div>
+            
+            <div class="process-step">
+                <div class="step-number">03</div>
+                <div class="step-content">
+                    <h3>Face Detection</h3>
+                    <p>Employs Haar Cascade classifiers with optimized parameters to identify facial features and patterns in each frame.</p>
+                </div>
+                <div class="step-visual">
+                    <div class="visual-detection"></div>
+                </div>
+            </div>
+            
+            <div class="process-step">
+                <div class="step-number">04</div>
+                <div class="step-content">
+                    <h3>Analysis & Counting</h3>
+                    <p>Processes detection results, eliminates false positives, and provides accurate face counting with bounding box visualization.</p>
+                </div>
+                <div class="step-visual">
+                    <div class="visual-analysis"></div>
+                </div>
+            </div>
+            
+            <div class="process-step">
+                <div class="step-number">05</div>
+                <div class="step-content">
+                    <h3>Real-time Display</h3>
+                    <p>Renders processed frames with visual feedback and updates face count statistics in real-time for immediate user feedback.</p>
+                </div>
+                <div class="step-visual">
+                    <div class="visual-display"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features & Capabilities -->
+<section class="capabilities-section">
+    <div class="container">
+        <h2>Key Features & Capabilities</h2>
+        <div class="capabilities-grid">
+            <div class="capability-card">
+                <div class="capability-icon">🎯</div>
+                <h3>High Precision Detection</h3>
+                <p>Advanced algorithms ensure accurate face detection across various lighting conditions, angles, and facial expressions.</p>
+                <ul class="capability-list">
+                    <li>Multiple face detection</li>
+                    <li>Partial face recognition</li>
+                    <li>Profile face detection</li>
+                </ul>
+            </div>
+            
+            <div class="capability-card">
+                <div class="capability-icon">⚡</div>
+                <h3>Real-time Performance</h3>
+                <p>Optimized processing pipeline delivers smooth, lag-free performance even with multiple faces in the frame.</p>
+                <ul class="capability-list">
+                    <li>Sub-100ms processing</li>
+                    <li>60 FPS capable</li>
+                    <li>Low CPU usage</li>
+                </ul>
+            </div>
+            
+            <div class="capability-card">
+                <div class="capability-icon">🛡️</div>
+                <h3>Privacy & Security</h3>
+                <p>All processing happens locally in your browser - no images or data are sent to external servers.</p>
+                <ul class="capability-list">
+                    <li>Local processing only</li>
+                    <li>No data storage</li>
+                    <li>Secure camera access</li>
+                </ul>
+            </div>
+            
+            <div class="capability-card">
+                <div class="capability-icon">🔧</div>
+                <h3>Customizable Parameters</h3>
+                <p>Adjustable detection sensitivity, frame rate, and resolution to suit different use cases and hardware capabilities.</p>
+                <ul class="capability-list">
+                    <li>Adjustable sensitivity</li>
+                    <li>Configurable FPS</li>
+                    <li>Resolution options</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Use Cases Section -->
+<section class="usecases-detailed">
+    <div class="container">
+        <h2>Industry Applications</h2>
+        <div class="usecases-tabs">
+            <div class="tab-buttons">
+                <button class="tab-button active" data-tab="security">Security</button>
+                <button class="tab-button" data-tab="analytics">Analytics</button>
+                <button class="tab-button" data-tab="retail">Retail</button>
+                <button class="tab-button" data-tab="research">Research</button>
+            </div>
+            
+            <div class="tab-content">
+                <div class="tab-pane active" id="security">
+                    <h3>Security & Surveillance</h3>
+                    <p>Monitor areas in real-time, count people in restricted zones, and enhance security systems with automated face detection capabilities.</p>
+                    <div class="usecase-features">
+                        <span>People Counting</span>
+                        <span>Access Control</span>
+                        <span>Crowd Monitoring</span>
+                    </div>
+                </div>
+                
+                <div class="tab-pane" id="analytics">
+                    <h3>Business Analytics</h3>
+                    <p>Gather insights on customer demographics, store traffic patterns, and engagement metrics through automated face counting.</p>
+                    <div class="usecase-features">
+                        <span>Customer Analytics</span>
+                        <span>Traffic Patterns</span>
+                        <span>Engagement Metrics</span>
+                    </div>
+                </div>
+                
+                <div class="tab-pane" id="retail">
+                    <h3>Retail & Marketing</h3>
+                    <p>Optimize store layouts, measure advertisement effectiveness, and understand customer behavior through face detection analytics.</p>
+                    <div class="usecase-features">
+                        <span>Store Optimization</span>
+                        <span>Ad Effectiveness</span>
+                        <span>Customer Behavior</span>
+                    </div>
+                </div>
+                
+                <div class="tab-pane" id="research">
+                    <h3>Academic Research</h3>
+                    <p>Support psychological studies, human-computer interaction research, and behavioral analysis with reliable face detection tools.</p>
+                    <div class="usecase-features">
+                        <span>Psychology Studies</span>
+                        <span>HCI Research</span>
+                        <span>Behavioral Analysis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Team Section -->
+<section class="team-section">
+    <div class="container">
+        <h2>Our Vision</h2>
+        <div class="vision-content">
+            <div class="vision-text">
+                <p>We believe that advanced computer vision technology should be accessible, ethical, and beneficial to all. Our platform represents the culmination of years of research and development in making complex AI technologies approachable and useful for everyday applications.</p>
+                <p>As we continue to evolve, we remain committed to innovation, user privacy, and creating tools that empower developers and businesses to build amazing applications.</p>
+                <div class="vision-stats">
+                    <div class="vision-stat">
+                        <strong>1000+</strong>
+                        <span>Developers Served</span>
+                    </div>
+                    <div class="vision-stat">
+                        <strong>24/7</strong>
+                        <span>Platform Availability</span>
+                    </div>
+                    <div class="vision-stat">
+                        <strong>99.9%</strong>
+                        <span>Uptime Reliability</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="about-cta">
+    <div class="container">
+        <h2>Ready to Experience Advanced Face Detection?</h2>
+        <p>Join thousands of developers and businesses using our technology</p>
+        <div class="cta-buttons">
+            <a href="{{ url_for('detect') }}" class="cta-button primary">Start Detecting Now</a>
+            <a href="{{ url_for('contact') }}" class="cta-button secondary">Contact Our Team</a>
+        </div>
+    </div>
+</section>
+{% endblock %}
